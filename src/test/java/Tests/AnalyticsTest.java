@@ -51,47 +51,47 @@ Thread.sleep(4000);
 
 
     }
-//    @Test(priority = 2)
-//    public void hover_total_users_on_Analytics_page() throws Exception {
-//        // 1.2 Hover on Total Users.
-//        AnalyticsPageObj.HoverTotalUser();
-//        Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.TotalUser));
-//
-//
-//
-//
-//    }
-//    @Test(priority = 3)
-//    public void hover_total_documents_on_Analytics_page() throws Exception {
-//        // 1.3 Hover on Total Documents.
-//        AnalyticsPageObj.HoverDocuments();
-//        Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.Document));
-//
-//
-//    }
-//    @Test(priority = 4)
-//    public void hover_processed_documents_on_Analytics_page() throws Exception {
-//        // 1.4 Hover on Processed Documents.
-//        AnalyticsPageObj.HoverProcessed();
-//
-//
-//
-//
-//    }
-//    @Test(priority = 5)
-//    public void hover_ready_to_process_on_Analytics_page() throws Exception {
-//        // 1.5 Hover on Ready to Process Documents.
-//        AnalyticsPageObj.HoverReadyToProcess();
-//        Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.ReadyToProcess));
-//
-//
-//    }
-//    @Test(priority = 6)
-//    public void hover_ready_to_rejected_documents_on_Analytics_page() throws Exception {
-//        // 1.6 Hover on Ready to Rejected Documents.
-//        AnalyticsPageObj.HoverRejected();
-//        Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.Rejected));
-//
-//    }
+    @Test(priority = 2)
+    public void hover_total_users_on_Analytics_page() throws Exception {
+        // 1.2 Hover on Total Users.
+        AnalyticsPageObj.HoverTotalUser();
+        Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.TotalUser));
+
+
+
+
+    }
+    @Test(priority = 3)
+    public void hover_total_documents_on_Analytics_page() throws Exception {
+        // 1.3 Hover on Total Documents.
+        AnalyticsPageObj.HoverDocuments();
+        Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.Document));
+
+
+    }
+    @Test(priority = 4)
+    public void hover_processed_documents_on_Analytics_page() throws Exception {
+        // 1.4 Hover on Processed Documents.
+        AnalyticsPageObj.HoverProcessed();
+
+
+
+
+    }
+    @Test(priority = 5)
+    public void hover_ready_to_process_on_Analytics_page() throws Exception {
+        // 1.5 Hover on Ready to Process Documents.
+        AnalyticsPageObj.HoverReadyToProcess();
+        Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.ReadyToProcess));
+
+
+    }
+    @Test(priority = 6)
+    public void hover_ready_to_rejected_documents_on_Analytics_page() throws Exception {
+        // 1.6 Hover on Ready to Rejected Documents.
+        AnalyticsPageObj.HoverRejected();
+        Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.Rejected));
+
+    }
 
 }
