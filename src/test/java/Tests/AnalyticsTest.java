@@ -56,10 +56,6 @@ Thread.sleep(4000);
         // 1.2 Hover on Total Users.
         AnalyticsPageObj.HoverTotalUser();
         Assert.assertTrue(AssertionsFunction.isPresent(AnalyticsPage.TotalUser));
-
-
-
-
     }
     @Test(priority = 3)
     public void hover_total_documents_on_Analytics_page() throws Exception {
